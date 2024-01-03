@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* .main{
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("../image/background.jpg") fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+} */
+
+h1 {
+    transition: 0.5s ease;
+}
+
+p {
+    transition: 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.heading-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.mybutton {
+    transition: 0.4s ease-out;
+    border: none;
+}
+
+
+.custom-nav {
+    min-height: 9vh;
+}
+
+.nav-effect {
+    text-decoration: none;
+    padding: 0.8rem;
+    transition: 0.3s ease-out;    
+    font-weight: 600;
+}
+
+.profile-nav{
+    padding-right: 3.5rem;
+}
+
+.carousel-item {
+    height: 65vh;
+}
+
+.carousel-image {
+    /* width: 100%;
+    object-fit: fill;
+    object-position: center; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: larger;
+    padding: 1.5rem 0;
+}
+
+.section {
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.show-heading {
+    margin-top: 1rem;
+}
+
+.show-container {
+    margin: auto;
+    padding: 1rem 0;
+    column-gap: 0.8rem;
+    row-gap: 1.5rem;
+}
+
+.show-item {
+    width: 15rem;
+    min-height: 23rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+    box-shadow: 0rem 0rem 0.7rem #1e2633;
+}
+
+.image-holder:hover .image {
+    transform: scale(1.08);
+}
+
+.image-holder {
+    height: 20rem;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4s ease-out;
+}
+
+.text-holder {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5rem;
+    overflow: auto;
+}
+
+.button-holder {
+    gap: 0.1rem;
+    padding: 0.1rem;
+}
+
+.sidebar {
+    width: 0rem;
+    z-index: 2;
+    transition: 0.4s ease-in-out;
+}
+
+.sidebar p {
+    margin: 0.3rem 0;
+    padding: 0;
+}
+
+.sidebar-inner {
+    padding: 0.8rem;
+}
+
+.sidebar-inner::-webkit-scrollbar {
+    display: none;
+}
+
+.side-image-holder {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    /* background-color: purple; */
+    overflow: hidden;
+}
+
+.side-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.side-show-details {
+    width: 90%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+/* ABOUT US */
+
+.small-section {
+    width: 92%;
+    margin: auto;
+}
+
+.grid-image {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.grid-image:hover {
+    transform: scale(1.05);
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(218, 165, 32, 0.514);
+    background-color: #284951; */
+    height: 100%;
+    padding: 2rem;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+
+
+/* Modal */
+.modal{
+    display: none;
+    transition: 1s ease-in-out;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-item{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.modal-image-holder{
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.modal-image{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4s ease;
+}
+
+.modal-image:hover{
+    transform: scale(1.05);
+}
+
+
+.modal-texts{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.modal-box{
+    width: 50%; 
+    height: 60%;
+}
+
+.mytransition {
+    animation-name: anime;
+    animation-duration: 0.6s;
+}
+
+@keyframes anime {
+    0% {
+        opacity: 0;
+        width: 20%;
+        height: 20%;
+    }
+
+    100% {
+        opacity: 1;
+        width: 50%;
+        height: 60%;
+    }
+}
+
+/* Modal Ends*/
+
+
+.bg-image{
+    /* background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5) url(https://c8.alamy.com/comp/2BG784X/retro-party-cinema-invitation-vector-tickets-set-vector-golden-tickets-isolated-on-black-background-illustration-2BG784X.jpg)); */
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.footer-width-link{
+    width: 25%;
+}
+
+
+/* About Us */
+
+.small-image{
+    width: 100%;
+    height: 10rem;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.image-hover{
+    cursor: pointer;
+}
+
+.image-hover:hover .small-image{
+    transform: scale(1.05);
+}
+
+/* About Us */
+/* MEDIA STARTS */
+@media only screen and (max-width: 1000px){
+    .modal-image{
+        height: 20rem;
+    }
+
+    .footer-width-link{
+        width: 50%;        
+    }
+
+    .myfooter-links{
+        text-align: center;
+    }
+
+    .profile-nav{
+        padding-right: 0rem;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    html p {
+        font-size: 14px;
+    }
+
+    .section {
+        width: 90%;
+    }
+
+    .show-heading {
+        text-align: center;
+    }
+
+    .show-item {
+        max-width: 14rem;
+        min-height: 18rem;
+    }
+
+    .carousel-item {
+        max-height: 80vh;
+    }
+
+    .small-section {
+        width: 95%;
+    }
+
+    .text-section {
+        padding: 1.5rem;
+    }
+
+    .modal-box{
+        width: 80%;
+    }
+
+
+    @keyframes anime {
+        0% {
+            opacity: 0;
+            width: 20%;
+            height: 20%;
+        }
+    
+        100% {
+            opacity: 1;
+            width: 80%;
+            height: 60%;
+        }
+    }
+
+
+    .footer-width-link{
+        width: 75%;        
+    }
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    html p {
+        font-size: 13px;
+    }
+
+    .small-section {
+        width: 100%;
+    }
+
+    .text-section {
+        padding: 1.1rem;
+    }
+
+}
+
+
+

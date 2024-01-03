@@ -1,0 +1,212 @@
+/* COLORS */
+
+:root{
+    --nav-p: rgb(20, 20, 20);
+    --bg-p-1: #3a101c;
+    --bg-p-2: #284951;
+    --bg-p-3: #895061;
+    --bg-p-4: #1f424b;
+    --bg-p-5: #1f1f1f;
+    --bg-p-button: #284951;
+    --bg-p-button-hover: #721c36;
+    --font-p: rgb(226, 226, 226);
+    --bg-p-showbox: black;
+}
+
+.bg-p-1{
+    background-color: var(--bg-p-1);
+}
+
+.bg-p-2{
+    background-color: var(--bg-p-2);
+}
+
+.bg-p-3{
+    background-color: var(--bg-p-3);
+}
+
+.bg-p-4{
+    background-color: var(--bg-p-4);
+}
+
+.bg-p-5{
+    background-color: var(--bg-p-5);
+}
+
+.logo-span{
+    color: #f0ad4e;
+}
+
+.heading-p-text{
+    color: goldenrod;
+}
+
+.nav-p-link-color{
+    color: white;
+}
+
+.nav-p-link-color:hover{
+    color: #4f9bb3;
+}
+
+.show-p-section-bg{
+    background-color: var(--bg-p-1);
+}
+
+.font-p{
+    color: var(--font-p);
+}
+
+.show-p-item-bg{
+    background-color: var(--bg-p-showbox);
+    color: white;
+    color: rgb(255, 201, 66);
+}
+
+.myactive{
+    color: #d19644;
+}
+
+.myactive:hover{
+    color: #4f9bb3;
+}
+
+.show-nav{
+    color: #4f9bb3;
+}
+
+.show-nav:hover{
+    color: rgb(201, 64, 166);
+}
+
+/* Disabled Button */
+.mybutton:disabled{
+    background-color: rgb(66, 66, 66);
+    color: black;
+    outline: none;
+    border: none;
+    cursor: not-allowed;
+}
+
+.mybutton:disabled:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+.button-p-bg{
+    background-color: var(--bg-p-button);
+    color: white;
+}
+
+.button-p-bg:hover{
+    background-color: var(--bg-p-button-hover);
+    color: white;
+}
+
+.sidebar-p-bg{
+    background-color: var(--bg-p-2);
+}
+
+.button-p-sidebar-bg{
+    background-color: var(--bg-p-button-hover);
+    color: white;
+}
+
+.button-p-sidebar-bg:hover{
+    background-color: #d19644;
+}
+
+.bgnav-p{
+    background-color: var(--nav-p);
+}
+
+.form-button{
+    background-color: var(--bg-p-button-hover);
+}
+
+
+.form-button:hover{
+    background-color: #d19644;
+    color: black;
+}
+
+.form-container .text-input{
+    border: 2px solid #d19644b0;
+    color: white;
+}
+.text-section{
+    background-color: rgba(218, 165, 32, 0.514);
+    background-color: #284951;
+}
+
+.text-section:hover{
+    background-color: var(--bg-p-button-hover);
+    color: white;
+}
+
+.text-section:hover h1{
+    color: white;
+}
+
+.hover-here{
+    background-color: black;
+    transition: 0.4s ease-out;
+}
+
+.hover-here:hover{
+    background-color: #49071a;
+}
+
+.modal{
+    background-color: rgba(20, 20, 20, 0.5)
+}
+
+.modal-show-heading{
+    color: #d19644;
+}
+
+.modal-border{
+    border: 0.5rem solid rgba(218, 165, 32, 0.767);
+}
+
+.modal-shadow{
+    box-shadow: 1rem 1rem 12rem black;
+}
+
+#modalClosebtn{
+    background-color: var(--bg-p-button-hover);  
+    color: white;
+    transition: 0.4s ease; 
+}
+
+#modalClosebtn:hover{
+    background-color: goldenrod;
+}
+
+#goToPaymentBtn{
+    background-color: rgb(20, 117, 112);  
+    color: white;
+    transition: 0.4s ease; 
+}
+
+#goToPaymentBtn:hover{
+    background-color: goldenrod;
+}
+
+.bg-footer{
+    background-color: rgb(68, 19, 33);
+}
+
+.bg-footer-bottom{
+    background-color: rgb(37, 10, 18);
+}
+
+.myfooter-links{
+    color: rgb(233, 233, 233);
+    transition: 0.5s ease-out;
+    padding: 0.05rem 0;
+    text-align: left;
+}
+
+.myfooter-links:hover{
+    color: goldenrod;
+}
